@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Run code submission",
+      "setup": "",
+      "run": "bash solution/run_builder.sh",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Ensure solution/block.txt",
+      "setup": "",
+      "run": "[ -f \"solution/block.txt\" ] || exit 1",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
